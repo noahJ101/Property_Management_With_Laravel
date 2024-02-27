@@ -17,9 +17,7 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
 
 Route::middleware([
     'auth:sanctum',
@@ -32,3 +30,5 @@ Route::middleware([
 });
 
 route::get('/redirect', [HomeController::class, 'redirect']);
+
+route::get('/', [HomeController::class, 'index']);
