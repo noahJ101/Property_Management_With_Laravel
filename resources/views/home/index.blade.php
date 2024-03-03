@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+
 <div class="hero">
     <div class="hero-slide">
       <div
@@ -835,6 +837,7 @@
       </div>
     </div>
   </div>
+
 
 
 @endsection

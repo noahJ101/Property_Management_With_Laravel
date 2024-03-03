@@ -14,22 +14,44 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home.index');
+        if (Auth::check()) {
+            $usertype = Auth::user()->usertype;
+    
+            if ($usertype == '1') {
+                return view('admin.home');
+            } else {
+                return view('home.index');
+            }
+        } else {
+            // User is not authenticated, handle accordingly (e.g., redirect to login page)
+            return redirect()->route('login');
+        }
+    }
+
+    public function about()
+    {
+        return view('home.about');
     }
 
     public function redirect()
     {
         
+        return view('admin.home');
+        
+    }
 
-        $usertype=Auth::user()->usertype;
+    public function contact()
+    {
+        return view('home.contact');
+    }
 
-        if($usertype=='1')
-        {
-            return view('admin.home');
-        }
+    public function properties()
+    {
+        return view('home.properties');
+    }
 
-        else{
-            return view('dashboard');
-        }
+    public function single_property()
+    {
+        return view('home.single_property');
     }
 }

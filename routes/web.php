@@ -32,3 +32,27 @@ Route::middleware([
 route::get('/redirect', [HomeController::class, 'redirect']);
 
 route::get('/', [HomeController::class, 'index']);
+
+route::get('/about', [HomeController::class, 'about']);
+
+route::get('/contact', [HomeController::class, 'contact']);
+
+route::get('/properties', [HomeController::class, 'properties']);
+
+route::get('/single_property', [HomeController::class, 'single_property']);
+
+route::get('/view_location', [AdminController::class, 'view_location']);
+
+route::post('/add_location', [AdminController::class, 'add_location']);
+
+route::get('/delete_location/{id}', [AdminController::class, 'delete_location']);
+
+route::get('/view_property', [AdminController::class, 'view_property']);
+
+route::post('/add_property', [AdminController::class, 'add_property']);
+
+route::get('/show_property', [AdminController::class, 'show_property']);
+
+route::get('/delete_property/{id}', [AdminController::class, 'delete_property']);
+
+route::post('/update_property/{id}', [AdminController::class, 'update_property']);

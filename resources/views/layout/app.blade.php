@@ -4,9 +4,12 @@
 * Template URI: https://untree.co/
 * License: https://creativecommons.org/licenses/by/3.0/
 */ -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <base href="/public">
+    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Untree.co" />
@@ -22,12 +25,12 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="fonts/icomoon/style.css" />
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="home/fonts/icomoon/style.css" />
+    <link rel="stylesheet" href="home/fonts/flaticon/font/flaticon.css" />
 
-    <link rel="stylesheet" href="css/tiny-slider.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="home/css/tiny-slider.css" />
+    <link rel="stylesheet" href="home/css/aos.css" />
+    <link rel="stylesheet" href="home/css/style.css" />
 
     <title>
       Property &mdash; Free Bootstrap 5 Website Template by Untree.co
@@ -42,11 +45,13 @@
       </div>
       <div class="site-mobile-menu-body"></div>
     </div>
+    
 
     <nav class="site-nav">
       <div class="container">
         <div class="menu-bg-wrap">
           <div class="site-navigation">
+           
             <a href="index.html" class="logo m-0 float-start">Property</a>
 
             <ul
@@ -71,6 +76,19 @@
               <li><a href="services.html">Services</a></li>
               <li><a href="about.html">About</a></li>
               <li><a href="contact.html">Contact Us</a></li>
+
+            
+              
+
+              @auth
+                    <li><a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a></li>
+                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                        @csrf
+                    </form>
+                    @else
+                    <li><a href="{{ route('login') }}">Login</a></li>
+                    <li><a href="{{ route('register') }}">Register</a></li>
+                    @endauth
             </ul>
 
             <a
@@ -79,6 +97,7 @@
               data-toggle="collapse"
               data-target="#main-navbar"
             >
+        
               <span></span>
             </a>
           </div>
@@ -87,7 +106,7 @@
     </nav>
 
    @yield('content')
-   
+
     <div class="site-footer">
       <div class="container">
         <div class="row">
@@ -202,11 +221,12 @@
       </div>
     </div>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/tiny-slider.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/custom.js"></script>
+    <script src="home/js/bootstrap.bundle.min.js"></script>
+    <script src="home/js/tiny-slider.js"></script>
+    <script src="home/js/aos.js"></script>
+    <script src="home/js/navbar.js"></script>
+    <script src="home/js/counter.js"></script>
+    <script src="home/js/custom.js"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
   </body>
 </html>
