@@ -10,7 +10,7 @@ style="background-image: url('images/hero_bg_3.jpg')"
   <div class="row justify-content-center align-items-center">
     <div class="col-lg-9 text-center mt-5">
       <h1 class="heading" data-aos="fade-up">
-        5232 California AVE. 21BC
+        {{$property->name}}
       </h1>
 
       <nav
@@ -27,7 +27,7 @@ style="background-image: url('images/hero_bg_3.jpg')"
             class="breadcrumb-item active text-white-50"
             aria-current="page"
           >
-            5232 California AVE. 21BC
+            {{$property->description}}
           </li>
         </ol>
       </nav>
@@ -42,41 +42,40 @@ style="background-image: url('images/hero_bg_3.jpg')"
     <div class="col-lg-7">
       <div class="img-property-slide-wrap">
         <div class="img-property-slide">
-          <img src="images/img_1.jpg" alt="Image" class="img-fluid" />
-          <img src="images/img_2.jpg" alt="Image" class="img-fluid" />
-          <img src="images/img_3.jpg" alt="Image" class="img-fluid" />
+          <img src="property/{{$property->image1}}" alt="Image" class="img-fluid" />
+          <img src="property/{{$property->image2}}" alt="Image" class="img-fluid" />
+          <img src="property/{{$property->image3}}" alt="Image" class="img-fluid" />
+          <img src="property/{{$property->image4}}" alt="Image" class="img-fluid" />
+          <img src="property/{{$property->image5}}" alt="Image" class="img-fluid" />
         </div>
       </div>
     </div>
     <div class="col-lg-4">
-      <h2 class="heading text-primary">5232 California Ave. 21BC</h2>
-      <p class="meta">California, United States</p>
+      <h2 class="heading text-primary">{{$property->name}}</h2>
+      <p class="meta">{{$property->location}}</p>
       <p class="text-black-50">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione
-        laborum quo quos omnis sed magnam id, ducimus saepe, debitis error
-        earum, iste dicta odio est sint dolorem magni animi tenetur.
+        {{$property->address}}
       </p>
       <p class="text-black-50">
-        Perferendis eligendi reprehenderit, assumenda molestias nisi eius
-        iste reiciendis porro tenetur in, repudiandae amet libero.
-        Doloremque, reprehenderit cupiditate error laudantium qui, esse
-        quam debitis, eum cumque perferendis, illum harum expedita.
+        {{$property->description}}
       </p>
 
       <div class="d-block agent-box p-5">
         <div class="img mb-4">
           <img
-            src="images/person_2-min.jpg"
+            src="images/Emmy.jpg"
             alt="Image"
             class="img-fluid"
           />
         </div>
         <div class="text">
-          <h3 class="mb-0">Alicia Huston</h3>
-          <div class="meta mb-3">Real Estate</div>
+          <h3 class="mb-0">Emmanuel Owoh</h3>
+          <div class="meta mb-3">Real Estate Agent</div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Ratione laborum quo quos omnis sed magnam id ducimus saepe
+            Emmanuel Owoh is a seasoned Real Estate Agent with a passion for helping clients find their dream properties. 
+            With over a decade of experience in the industry, Emmanuel brings a wealth of knowledge and expertise to every transaction. 
+            Known for his exceptional negotiation skills and unwavering commitment to client satisfaction, Emmanuel goes above and beyond to ensure that his clients' needs are met and exceeded.
+             Whether you're buying, selling, or investing in real estate, Emmanuel Owoh is dedicated to providing personalized service and expert guidance every step of the way.
           </p>
           <ul class="list-unstyled social dark-hover d-flex">
             <li class="me-1">

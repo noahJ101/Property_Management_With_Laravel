@@ -19,15 +19,11 @@ use App\Http\Controllers\AdminController;
 
 
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->name('dashboard');
+
 
 route::get('/redirect', [HomeController::class, 'redirect']);
 
@@ -37,9 +33,17 @@ route::get('/about', [HomeController::class, 'about']);
 
 route::get('/contact', [HomeController::class, 'contact']);
 
+route::get('/services', [HomeController::class, 'services']);
+
 route::get('/properties', [HomeController::class, 'properties']);
 
-route::get('/single_property', [HomeController::class, 'single_property']);
+route::get('/single_property/{id}', [HomeController::class, 'single_property']);
+
+route::post('/add_comment', [HomeController::class, 'add_comment']);
+
+route::post('/add_reply', [HomeController::class, 'add_reply']);
+
+route::get('/search', [HomeController::class, 'search']);
 
 route::get('/view_location', [AdminController::class, 'view_location']);
 
@@ -55,4 +59,6 @@ route::get('/show_property', [AdminController::class, 'show_property']);
 
 route::get('/delete_property/{id}', [AdminController::class, 'delete_property']);
 
-route::post('/update_property/{id}', [AdminController::class, 'update_property']);
+route::get('/update_property/{id}', [AdminController::class, 'update_property']);
+
+route::post('/update_property_confirm/{id}', [AdminController::class, 'update_property_confirm']);

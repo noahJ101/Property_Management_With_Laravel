@@ -57,7 +57,7 @@
 
                 <div class="div_center">
                     <h1 class="font_size">Add Property</h1>
-                    <form action="{{url('update_property',$property->id)}}" method="POST" enctype="multipart/form-data">
+                    <form action="{{url('update_property_confirm',$property->id)}}" method="POST" enctype="multipart/form-data">
                         @csrf
                     <div class="div_design">
                     <label for="">Property Name :</label>
@@ -66,13 +66,13 @@
 
                     <div  class="div_design">
                         <label for="">Property Address :</label>
-                        <input class="text_color" type="text" name="address" placeholder="Write Property Address" required="" value="{{$property->address}}">>
+                        <input class="text_color" type="text" name="address" placeholder="Write Property Address" required="" value="{{$property->address}}">
                         </div>
 
                         <div class="div_design">
                             <label for="">Property Location :</label>
-                            <select class="text_color" name="location" id="" required="" value="{{$property->location}}">>
-                                <option value="{{$location->location_name}}" selected="">{{$location->location_name}}</option>
+                            <select class="text_color" name="location" id="" required="" value="{{$property->location}}">
+                               
 
                                 @foreach($location as $location)
                                 <option value="{{$location->location_name}}">{{$location->location_name}}</option>
@@ -86,28 +86,28 @@
 
                             <div class="div_design">
                                 <label for="">Property Description :</label>
-                                <input class="text_color" type="text" name="description" placeholder="Write Property Description" required="" value="{{$property->description}}">>
+                                <input class="text_color" type="text" name="description" placeholder="Write Property Description" required="" value="{{$property->description}}">
                                 </div>
 
                                 
                                                     <div class="div_design">
                                                         <label for="">Property Amount :</label>
-                                                        <input type="number" name="amount" placeholder="Write Property Amount" required="" value="{{$property->amount}}">>
+                                                        <input type="number" name="amount" placeholder="Write Property Amount" required="" value="{{$property->amount}}">
                                                         </div>
 
                                                         <div class="div_design">
                                                             <label for="">Property Bedrooms :</label>
-                                                            <input type="number" name="bedrooms" placeholder="Write Number of Bedroom" required="" value="{{$property->bedrooms}}">>
+                                                            <input type="text" name="bedrooms" placeholder="Write Number of Bedroom" required="" value="{{$property->bedrooms}}">
                                                             </div>
 
                                                             <div class="div_design">
                                                                 <label for="">Property Bathrooms :</label>
-                                                                <input type="number" name="bathrooms" placeholder="Write Number of Bathrooms" required="" value="{{$property->bathrooms}}">>
+                                                                <input type="text" name="bathrooms" placeholder="Write Number of Bathrooms" required="" value="{{$property->bathrooms}}">
                                                                 </div>
 
                                                                 <div class="div_design">
                                                                     <label for="">Property Status</label>
-                                                                    <input type="text" name="status" placeholder="Write Property Availbility" required="" value="{{$property->status}}">>
+                                                                    <input type="text" name="status" placeholder="Write Property Availbility" required="" value="{{$property->status}}">
                                                                     </div>
                                                                     <div class="div_design">
                                                                         <label for=""> Current Property Image 1 :</label>
@@ -118,7 +118,7 @@
 
                                                                     <div class="div_design">
                                                                         <label for=""> Change Property Image 1 :</label>
-                                                                        <input type="file" name="image1" required="">
+                                                                        <input type="file" name="image1" >
                                                                         </div>
                                     
                                     
@@ -131,7 +131,7 @@
 
                                                                         <div class="div_design">
                                                                             <label for=""> Change Property Image 2 :</label>
-                                                                            <input type="file" name="image2" required="">
+                                                                            <input type="file" name="image2" >
                                                                             </div>
                                     
                                                                             <div class="div_design">
@@ -145,7 +145,7 @@
                                                                                 
                                                                             <div class="div_design">
                                                                                 <label for="">Change Property Image 3 :</label>
-                                                                                <input type="file" name="image3" required="">
+                                                                                <input type="file" name="image3">
                                                                                 </div>
                                     
                                                                                 <div class="div_design">
@@ -157,7 +157,7 @@
 
                                                                                 <div class="div_design">
                                                                                     <label for="">Property Image 4 :</label>
-                                                                                    <input type="file" name="image4" required="" >
+                                                                                    <input type="file" name="image4" >
                                                                                     </div>
                                     
                                                                                     <div class="div_design">
@@ -169,13 +169,13 @@
 
                                                                                     <div class="div_design">
                                                                                         <label for="">Property Image 5 :</label>
-                                                                                        <input type="file" name="image5" required="">
+                                                                                        <input type="file" name="image5">
                                                                                         </div>
                                     
 
                                                                     <div class="div_design">
 
-                                                                        <input type="submit" value="Add Property"  class="btn btn-primary">
+                                                                        <input type="submit" value="Update Property"  class="btn btn-primary">
 
                                                                     </div>
 

@@ -92,7 +92,7 @@
 
                                                         <div class="div_design">
                                                             <label for="">Property Bedrooms :</label>
-                                                            <input type="number" name="bedrooms" placeholder="Write Number of Bedroom" required="">
+                                                            <input type="text" name="bedrooms" placeholder="Write Number of Bedroom" required="">
                                                             </div>
 
                                                             <div class="div_design">
@@ -149,5 +149,17 @@
     <!-- plugins:js -->
     @include('admin.script')
     <!-- End custom js for this page -->
+
   </body>
+
+  <script>
+    // Format amount input with commas as thousands separators
+    document.getElementById('amount').addEventListener('input', function(event) {
+        let value = event.target.value.replace(/,/g, ''); // Remove existing commas
+        value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ','); // Add commas for thousands separators
+        event.target.value = value;
+    });
+
+    // No need to format bedrooms and bathrooms since they can have mixed number and string format
+</script>
 </html>

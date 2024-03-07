@@ -8,8 +8,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <base href="/public">
     
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Untree.co" />
@@ -25,15 +25,15 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="home/fonts/icomoon/style.css" />
-    <link rel="stylesheet" href="home/fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="{{asset('home/fonts/icomoon/style.css')}}" />
+    <link rel="stylesheet" href="{{asset('home/fonts/flaticon/font/flaticon.css')}}" />
 
-    <link rel="stylesheet" href="home/css/tiny-slider.css" />
-    <link rel="stylesheet" href="home/css/aos.css" />
-    <link rel="stylesheet" href="home/css/style.css" />
-
+    <link rel="stylesheet" href="{{asset('home/css/tiny-slider.css')}}" />
+    <link rel="stylesheet" href="{{asset('home/css/aos.css')}}" />
+    <link rel="stylesheet" href="{{asset('home/css/style.css')}}" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>
-      Property &mdash; Free Bootstrap 5 Website Template by Untree.co
+      Property 
     </title>
   </head>
   <body>
@@ -52,14 +52,14 @@
         <div class="menu-bg-wrap">
           <div class="site-navigation">
            
-            <a href="index.html" class="logo m-0 float-start">Property</a>
+            <a href="{{url('/')}}" class="logo m-0 float-start">Ark View</a>
 
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
             >
-              <li class="active"><a href="index.html">Home</a></li>
+              <li class="active"><a href="{{url('/')}}">Home</a></li>
               <li class="has-children">
-                <a href="properties.html">Properties</a>
+                <a href="{{url('/properties')}}">Properties</a>
                 <ul class="dropdown">
                   <li><a href="#">Buy Property</a></li>
                   <li><a href="#">Sell Property</a></li>
@@ -73,9 +73,9 @@
                   </li>
                 </ul>
               </li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="{{url('/services')}}">Services</a></li>
+              <li><a href="{{url('/about')}}">About</a></li>
+              <li><a href="{{url('/contact')}}">Contact Us</a></li>
 
             
               
@@ -125,17 +125,22 @@
             <!-- /.widget -->
           </div>
           <!-- /.col-lg-4 -->
+          
+
+          
+
           <div class="col-lg-4">
             <div class="widget">
+
+                {{--
               <h3>Sources</h3>
               <ul class="list-unstyled float-start links">
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Vision</a></li>
-                <li><a href="#">Mission</a></li>
+                <li><a href="{{url('/about')}}">About us</a></li>
+                <li><a href="{{url('/services')}}">Services</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Privacy</a></li>
               </ul>
+              
               <ul class="list-unstyled float-start links">
                 <li><a href="#">Partners</a></li>
                 <li><a href="#">Business</a></li>
@@ -144,6 +149,7 @@
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#">Creative</a></li>
               </ul>
+              --}}
             </div>
             <!-- /.widget -->
           </div>
@@ -152,9 +158,11 @@
             <div class="widget">
               <h3>Links</h3>
               <ul class="list-unstyled links">
-                <li><a href="#">Our Vision</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="{{url('/services')}}">Our Services</a></li>
+                <li><a href="{{url('/about')}}">About us</a></li>
+                <li><a href="{{url('/contact')}}">Contact us</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
               </ul>
 
               <ul class="list-unstyled social">
@@ -198,9 +206,7 @@
               <script>
                 document.write(new Date().getFullYear());
               </script>
-              . All Rights Reserved. &mdash; Designed with love by
-              <a href="https://untree.co">Untree.co</a>
-              <!-- License information: https://untree.co/license/ -->
+              
             </p>
             <div>
               Distributed by
@@ -221,12 +227,45 @@
       </div>
     </div>
 
-    <script src="home/js/bootstrap.bundle.min.js"></script>
-    <script src="home/js/tiny-slider.js"></script>
-    <script src="home/js/aos.js"></script>
-    <script src="home/js/navbar.js"></script>
-    <script src="home/js/counter.js"></script>
-    <script src="home/js/custom.js"></script>
+<script type="text/javascript">
+
+function reply(caller)
+{
+    document.getElementById('commentId').value=$(caller).attr('data-Commentid');
+  $('.replyDiv').insertAfter($(caller));
+
+  $('.replyDiv').show();
+}
+
+function reply_close(caller)
+{
+  
+
+  $('.replyDiv').hide();
+}
+
+
+</script>
+
+<script>
+
+    document.addEventListener("DOMContentLoader", function(event){
+       var (scrollpos) window.scrollTo(0, scrollpos);
+    });
+
+    window.onbeforeunload = function(e) {
+       localStrorage.setItem('scrollpos', window.scrollY);
+    };
+
+
+ </script>
+    
+    <script src="{{('home/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{('home/js/tiny-slider.js')}}"></script>
+    <script src="{{('home/js/aos.js')}}"></script>
+    <script src="{{('home/js/navbar.js')}}"></script>
+    <script src="{{('home/js/counter.js')}}"></script>
+    <script src="{{('home/js/custom.js')}}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
   </body>
 </html>
