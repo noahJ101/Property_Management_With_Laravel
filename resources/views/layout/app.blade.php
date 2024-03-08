@@ -260,12 +260,12 @@ function reply_close(caller)
 
  </script>
     
-    <script src="{{('home/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{('home/js/tiny-slider.js')}}"></script>
-    <script src="{{('home/js/aos.js')}}"></script>
-    <script src="{{('home/js/navbar.js')}}"></script>
-    <script src="{{('home/js/counter.js')}}"></script>
-    <script src="{{('home/js/custom.js')}}"></script>
+    <script src="{{asset('home/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('home/js/tiny-slider.js')}}"></script>
+    <script src="{{asset('home/js/aos.js')}}"></script>
+    <script src="{{asset('home/js/navbar.js')}}"></script>
+    <script src="{{asset('home/js/counter.js')}}"></script>
+    <script src="{{asset('home/js/custom.js')}}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
   </body>
 </html>
