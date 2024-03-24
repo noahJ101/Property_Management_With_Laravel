@@ -51,6 +51,7 @@ style="background-image: url('images/hero_bg_3.jpg')"
       </div>
     </div>
     <div class="col-lg-4">
+      <p class="meta">{{$property->created_at}}</p>
       <h2 class="heading text-primary">{{$property->name}}</h2>
       <p class="meta">{{$property->location}}</p>
       <p class="text-black-50">

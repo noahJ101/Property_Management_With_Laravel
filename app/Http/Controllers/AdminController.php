@@ -160,7 +160,8 @@ class AdminController extends Controller
             $property->address = $request->address;
             $property->location = $request->location;
             $property->description = $request->description;
-            $property->amount = $request->amount;
+            // Format amount with commas
+            $property->amount = number_format($request->amount, 2, '.', ',');
             $property->bedrooms = $request->bedrooms;
             $property->bathrooms = $request->bathrooms;
             $property->status = $request->status;

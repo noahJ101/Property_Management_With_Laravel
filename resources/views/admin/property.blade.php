@@ -152,14 +152,5 @@
 
   </body>
 
-  <script>
-    // Format amount input with commas as thousands separators
-    document.getElementById('amount').addEventListener('input', function(event) {
-        let value = event.target.value.replace(/,/g, ''); // Remove existing commas
-        value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ','); // Add commas for thousands separators
-        event.target.value = value;
-    });
-
-    // No need to format bedrooms and bathrooms since they can have mixed number and string format
-</script>
+  
 </html>

@@ -72,51 +72,39 @@
             
                 
             
-       
         <div class="col-12">
           <div class="property-slider-wrap">
-            <div class="property-slider">
-
-                @foreach ($property as $property)
-                    
-                
-              <div class="property-item">
-                <a href="{{url('single_property',$property->id)}}" class="img">
-                  <img src="property/{{$property->image1}}" alt="Image" class="img-fluid" />
-                </a>
-
-                <div class="property-content">
-                  <div class="price mb-2">N{{$property->amount}}</span></div>
-                  <div>
-                    <span class="d-block mb-2 text-black-50"
-                      >{{$property->description}}</span
-                    >
-                    <span class="city d-block mb-3">{{$property->location}}</span>
-
-                    <div class="specs d-flex mb-4">
-                      <span class="d-block d-flex align-items-center me-3">
-                        <span class="icon-bed me-2"></span>
-                        <span class="caption">{{$property->bedrooms}}</span>
-                      </span>
-                      <span class="d-block d-flex align-items-center">
-                        <span class="icon-bath me-2"></span>
-                        <span class="caption">{{$property->bathrooms}}</span>
-                      </span>
-                    </div>
-
-                    <a
-                      href="{{url('single_property',$property->id)}}"
-                      class="btn btn-primary py-2 px-3"
-                      >See details</a
-                    >
+              <div class="property-slider">
+                  @foreach ($property as $property)
+                  <div class="property-item">
+                      <a href="{{url('single_property',$property->id)}}" class="img">
+                          <img src="property/{{$property->image1}}" alt="Image" class="img-fluid" />
+                      </a>
+      
+                      <div class="property-content">
+                          <span class="d-block mb-2 text-black-50">{{$property->created_at}}</span>
+                          <div class="price mb-2">N{{$property->amount}}</div>
+                          <span class="d-block mb-2 text-black-50">{{$property->description}}</span>
+                          <span class="city d-block mb-3">{{$property->location}}</span>
+      
+                          <div class="specs d-flex mb-4">
+                              <span class="d-block d-flex align-items-center me-3">
+                                  <span class="icon-bed me-2"></span>
+                                  <span class="caption">{{$property->bedrooms}}</span>
+                              </span>
+                              <span class="d-block d-flex align-items-center">
+                                  <span class="icon-bath me-2"></span>
+                                  <span class="caption">{{$property->bathrooms}}</span>
+                              </span>
+                          </div>
+      
+                          <a href="{{url('single_property',$property->id)}}" class="btn btn-primary py-2 px-3">See details</a>
+                      </div>
                   </div>
-                </div>
+                  @endforeach
               </div>
-              @endforeach
-              <!-- .item -->
-
-              
-            </div>
+          </div>
+      </div>
 
             <div
               id="property-nav"

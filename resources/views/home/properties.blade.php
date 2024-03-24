@@ -51,6 +51,9 @@ style="background-image: url('images/hero_bg_1.jpg')"
             </a>
 
             <div class="property-content">
+              <span class="d-block mb-2 text-black-50"
+                  >{{$properties->created_at}}</span
+                >
               <div class="price mb-2"><span>N{{$properties->amount}}</span></div>
               <div>
                 <span class="d-block mb-2 text-black-50"
