@@ -79,7 +79,7 @@
         <div class="row justify-content-between mb-5">
           <div class="col-lg-7 mb-5 mb-lg-0 order-lg-2">
             <div class="img-about dots">
-              <img src="images/hero_bg_3.jpg" alt="Image" class="img-fluid" />
+              <img src="{{asset('images/hero_bg_3.jpg')}}" alt="Image" class="img-fluid" />
             </div>
           </div>
           <div class="col-lg-4">
@@ -181,13 +181,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="0">
-            <img src="images/img_1.jpg" alt="Image" class="img-fluid" />
+            <img src="{{ asset('images/img_1.jpg') }}" alt="Image" class="img-fluid" />
           </div>
           <div class="col-md-4 mt-lg-5" data-aos="fade-up" data-aos-delay="100">
-            <img src="images/img_3.jpg" alt="Image" class="img-fluid" />
+            <img src="{{ asset('images/img_2.jpg') }}" alt="Image" class="img-fluid" />
           </div>
           <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <img src="images/img_2.jpg" alt="Image" class="img-fluid" />
+            <img src="{{ asset('images/img_3.jpg') }}" alt="Image" class="img-fluid" />
           </div>
         </div>
         <div class="row section-counter mt-5">

@@ -42,11 +42,11 @@ style="background-image: url('images/hero_bg_3.jpg')"
     <div class="col-lg-7">
       <div class="img-property-slide-wrap">
         <div class="img-property-slide">
-          <img src="property/{{$property->image1}}" alt="Image" class="img-fluid" />
-          <img src="property/{{$property->image2}}" alt="Image" class="img-fluid" />
-          <img src="property/{{$property->image3}}" alt="Image" class="img-fluid" />
-          <img src="property/{{$property->image4}}" alt="Image" class="img-fluid" />
-          <img src="property/{{$property->image5}}" alt="Image" class="img-fluid" />
+          <img src="{{ asset('property/' . $property->image1) }}" alt="Image" class="img-fluid" />
+          <img src="{{ asset('property/' . $property->image2) }}" alt="Image" class="img-fluid" />
+          <img src="{{ asset('property/' . $property->image3) }}" alt="Image" class="img-fluid" />
+          <img src="{{ asset('property/' . $property->image4) }}" alt="Image" class="img-fluid" />
+          <img src="{{ asset('property/' . $property->image5) }}" alt="Image" class="img-fluid" />
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@ style="background-image: url('images/hero_bg_3.jpg')"
       <div class="d-block agent-box p-5">
         <div class="img mb-4">
           <img
-            src="images/Emmy.jpg"
+            src="{{ asset('images/Emmy.jpg') }}"
             alt="Image"
             class="img-fluid"
           />
