@@ -16,7 +16,7 @@
               data-aos-delay="200"
             >
               <ol class="breadcrumb text-center justify-content-center">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="{{url('/')}}">Home</a></li>
                 <li
                   class="breadcrumb-item active text-white-50"
                   aria-current="page"
@@ -159,7 +159,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_1-min.jpg"
+                  src="{{ asset('images/person_1-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
@@ -186,7 +186,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_2-min.jpg"
+                  src="{{ asset('images/person_2-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
@@ -213,7 +213,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_3-min.jpg"
+                  src="{{ asset('images/person_3-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
@@ -240,7 +240,7 @@
             <div class="item">
               <div class="testimonial">
                 <img
-                  src="images/person_4-min.jpg"
+                  src="{{ asset('images/person_4-min.jpg') }}"
                   alt="Image"
                   class="img-fluid rounded-circle w-25 mb-4"
                 />
