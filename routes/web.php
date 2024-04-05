@@ -35,6 +35,10 @@ route::get('/contact', [HomeController::class, 'contact']);
 
 route::get('/services', [HomeController::class, 'services']);
 
+route::get('/terms', [HomeController::class, 'terms']);
+
+route::get('/privacy', [HomeController::class, 'privacy']);
+
 route::get('/properties', [HomeController::class, 'properties']);
 
 route::get('/single_property/{id}', [HomeController::class, 'single_property']);

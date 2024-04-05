@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="{{asset('home/css/style.css')}}" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>
-      Property 
+      INTER-LLECT FACILITY MANAGEMENT & HOMES LTD 
     </title>
   </head>
   <body>
@@ -52,15 +52,20 @@
         <div class="menu-bg-wrap">
           <div class="site-navigation">
            
-            <a href="{{url('/')}}" class="logo m-0 float-start">Ark View</a>
+           <!-- <a href="{{url('/')}}" class="logo m-0 float-start">Ark View</a> -->
+
+           <a href="{{url('/')}}" class="logo m-0 float-start">
+          <img src="images/logo.jpeg" alt="INTER-LLECT FACILITY MANAGEMENT & HOMES LTD">
+        </a>
 
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
             >
               <li class="active"><a href="{{url('/')}}">Home</a></li>
-              <li class="has-children">
-                <a href="{{url('/properties')}}">Properties</a>
-                <ul class="dropdown">
+             <!-- <li class="has-children"> -->
+              <li>  <a href="{{url('/properties')}}">Properties</a>
+
+                <!-- <ul class="dropdown">
                   <li><a href="#">Buy Property</a></li>
                   <li><a href="#">Sell Property</a></li>
                   <li class="has-children">
@@ -71,7 +76,8 @@
                       <li><a href="#">Sub Menu Three</a></li>
                     </ul>
                   </li>
-                </ul>
+                </ul> --> 
+
               </li>
               <li><a href="{{url('/services')}}">Services</a></li>
               <li><a href="{{url('/about')}}">About</a></li>
@@ -113,10 +119,11 @@
           <div class="col-lg-4">
             <div class="widget">
               <h3>Contact</h3>
-              <address>43 Raymouth Rd. Baltemoer, London 3910</address>
+              <address>NO. 45, LEKKI SCHEME 2 ESTATE AJAH, LAGOS, LAGOS
+                STATE, NIGERIA</address>
               <ul class="list-unstyled links">
-                <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-                <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+                <li><a href="tel://11234567890">+(234)8118849191</a></li>
+                <li><a href="tel://11234567890">+(234)-456-7890</a></li>
                 <li>
                   <a href="mailto:info@mydomain.com">info@mydomain.com</a>
                 </li>
@@ -161,8 +168,8 @@
                 <li><a href="{{url('/services')}}">Our Services</a></li>
                 <li><a href="{{url('/about')}}">About us</a></li>
                 <li><a href="{{url('/contact')}}">Contact us</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Privacy</a></li>
+                <li><a href="{{url('/terms')}}">Terms and Conditions</a></li>
+                <li><a href="{{url('/privacy')}}">Privacy</a></li>
               </ul>
 
               <ul class="list-unstyled social">
@@ -210,7 +217,7 @@
             </p>
             <div>
               Distributed by
-              <a href="https://themewagon.com/" target="_blank">themewagon</a>
+              <a href="https://www.instagram.com/ark.view?igsh=Z3hkb2dnOG1neTg5/" target="_blank">Ark View</a>
             </div>
           </div>
         </div>

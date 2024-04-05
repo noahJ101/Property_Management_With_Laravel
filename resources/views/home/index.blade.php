@@ -139,45 +139,41 @@
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
           <div class="box-feature">
             <span class="flaticon-house"></span>
-            <h3 class="mb-3">Our Properties</h3>
+            <h3 class="mb-3">Property Management</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptates, accusamus.
+              Our property management services are designed to streamline the management of residential and commercial properties, allowing property owners to maximize their investments while minimizing their stress. From tenant management to maintenance and repairs, we handle every aspect of property management with professionalism and efficiency.
             </p>
-            <p><a href="#" class="learn-more">Learn More</a></p>
+            <p><a href="{{url('/services')}}" class="learn-more">Learn More</a></p>
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="500">
           <div class="box-feature">
             <span class="flaticon-building"></span>
-            <h3 class="mb-3">Property for Sale</h3>
+            <h3 class="mb-3">Facility Maintenance</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptates, accusamus.
+              Keeping your facilities in top condition is essential for both safety and comfort. Our facility maintenance services cover everything from routine inspections and repairs to emergency response and preventive maintenance. With our team of skilled technicians and contractors, you can trust us to keep your facilities running smoothly.
             </p>
-            <p><a href="#" class="learn-more">Learn More</a></p>
+            <p><a href="{{url('/services')}}" class="learn-more">Learn More</a></p>
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
           <div class="box-feature">
             <span class="flaticon-house-3"></span>
-            <h3 class="mb-3">Real Estate Agent</h3>
+            <h3 class="mb-3">Cleaning Services</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptates, accusamus.
+              Maintaining a clean and sanitary environment is crucial for any home or business. Our cleaning services range from regular janitorial services to specialized cleaning solutions for carpets, upholstery, and more. We use environmentally friendly products and modern techniques to ensure the highest standards of cleanliness.
             </p>
-            <p><a href="#" class="learn-more">Learn More</a></p>
+            <p><a href="{{url('/services')}}" class="learn-more">Learn More</a></p>
           </div>
         </div>
         <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="600">
           <div class="box-feature">
             <span class="flaticon-house-1"></span>
-            <h3 class="mb-3">House for Sale</h3>
+            <h3 class="mb-3">Landscaping and Gardening</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Voluptates, accusamus.
+              Enhance the beauty and functionality of your outdoor spaces with our landscaping and gardening services. Whether you need regular lawn maintenance, landscaping design, or garden installation, our team has the expertise and creativity to transform your outdoor areas into stunning landscapes.
             </p>
-            <p><a href="#" class="learn-more">Learn More</a></p>
+            <p><a href="{{url('/services')}}" class="learn-more">Learn More</a></p>
           </div>
         </div>
       </div>
