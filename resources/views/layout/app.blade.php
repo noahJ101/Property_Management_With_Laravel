@@ -123,9 +123,9 @@
                 STATE, NIGERIA</address>
               <ul class="list-unstyled links">
                 <li><a href="tel://11234567890">+(234)8118849191</a></li>
-                <li><a href="tel://11234567890">+(234)-456-7890</a></li>
+                
                 <li>
-                  <a href="mailto:info@mydomain.com">info@mydomain.com</a>
+                  <a href="mailto:info@mydomain.com">info@interllect.com</a>
                 </li>
               </ul>
             </div>

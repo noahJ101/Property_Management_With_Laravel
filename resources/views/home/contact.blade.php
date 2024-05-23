@@ -43,8 +43,7 @@
                 <i class="icon-room"></i>
                 <h4 class="mb-2">Location:</h4>
                 <p>
-                  43 Raymouth Rd. Baltemoer,<br />
-                  London 3910
+                  NO. 45, LEKKI SCHEME 2 ESTATE AJAH, LAGOS, LAGOS STATE, NIGERIA
                 </p>
               </div>
 
@@ -52,21 +51,21 @@
                 <i class="icon-clock-o"></i>
                 <h4 class="mb-2">Open Hours:</h4>
                 <p>
-                  Sunday-Friday:<br />
-                  11:00 AM - 2300 PM
+                  Monday-Friday:<br />
+                  10:00 AM - 20:00 PM
                 </p>
               </div>
 
               <div class="email mt-4">
                 <i class="icon-envelope"></i>
                 <h4 class="mb-2">Email:</h4>
-                <p>info@Untree.co</p>
+                <p>info@interllect.com</p>
               </div>
 
               <div class="phone mt-4">
                 <i class="icon-phone"></i>
                 <h4 class="mb-2">Call:</h4>
-                <p>+1 1234 55488 55</p>
+                <p>+(234)8118849191</p>
               </div>
             </div>
           </div>

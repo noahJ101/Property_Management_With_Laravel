@@ -185,7 +185,7 @@
       <div class="row mb-5 align-items-center">
         <div class="col-md-6">
           <h2 class="font-weight-bold heading text-primary mb-4 mb-md-0">
-            Customer Says
+            Customer Reviews
           </h2>
         </div>
         <div class="col-md-6 text-md-end">
@@ -205,7 +205,7 @@
           <div class="item">
             <div class="testimonial">
               <img
-                src="images/person_1-min.jpg"
+                src="images/face14.jpg"
                 alt="Image"
                 class="img-fluid rounded-circle w-25 mb-4"
               />
@@ -216,23 +216,20 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <h3 class="h5 text-primary mb-4">James Smith</h3>
+              <h3 class="h5 text-primary mb-4">James Ade</h3>
               <blockquote>
                 <p>
-                  &ldquo;Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind
-                  texts. Separated they live in Bookmarksgrove right at the
-                  coast of the Semantics, a large language ocean.&rdquo;
+                  &ldquo;I've been using INTER-LLECT Facility Management & Homes Ltd for over a year now, and their service has been impeccable. Their team is always prompt, professional, and attentive to all our needs. From maintenance requests to managing our properties, they handle everything with utmost efficiency. I highly recommend their services to anyone looking for reliable property management!&rdquo;
                 </p>
               </blockquote>
-              <p class="text-black-50">Designer, Co-founder</p>
+              <p class="text-black-50">Realtor</p>
             </div>
           </div>
 
           <div class="item">
             <div class="testimonial">
               <img
-                src="images/person_2-min.jpg"
+                src="images/face25.jpg"
                 alt="Image"
                 class="img-fluid rounded-circle w-25 mb-4"
               />
@@ -243,23 +240,20 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <h3 class="h5 text-primary mb-4">Mike Houston</h3>
+              <h3 class="h5 text-primary mb-4">Segun Mike </h3>
               <blockquote>
                 <p>
-                  &ldquo;Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind
-                  texts. Separated they live in Bookmarksgrove right at the
-                  coast of the Semantics, a large language ocean.&rdquo;
+                  &ldquo;INTER-LLECT Facility Management & Homes Ltd has been a game-changer for our property management needs. Their attention to detail and proactive approach ensure that our properties are well-maintained and our tenants are happy. The only reason I didn't give them five stars is that there was a slight delay in one of our maintenance requests, but they resolved it quickly once we brought it to their attention. Overall, highly satisfied with their service.&rdquo;
                 </p>
               </blockquote>
-              <p class="text-black-50">Designer, Co-founder</p>
+              <p class="text-black-50">Estate Agent</p>
             </div>
           </div>
 
           <div class="item">
             <div class="testimonial">
               <img
-                src="images/person_3-min.jpg"
+                src="images/face17.jpg"
                 alt="Image"
                 class="img-fluid rounded-circle w-25 mb-4"
               />
@@ -270,16 +264,13 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <h3 class="h5 text-primary mb-4">Cameron Webster</h3>
+              <h3 class="h5 text-primary mb-4">Uche Obi</h3>
               <blockquote>
                 <p>
-                  &ldquo;Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind
-                  texts. Separated they live in Bookmarksgrove right at the
-                  coast of the Semantics, a large language ocean.&rdquo;
+                  &ldquo;Excellent service and highly professional staff! INTER-LLECT Facility Management & Homes Ltd has taken the stress out of managing multiple properties. Their comprehensive approach covers everything from tenant management to regular maintenance, allowing us to focus on other aspects of our business. The team is always responsive and goes above and beyond to meet our expectations. Couldn't ask for a better property management company!&rdquo;
                 </p>
               </blockquote>
-              <p class="text-black-50">Designer, Co-founder</p>
+              <p class="text-black-50">Software Engineer</p>
             </div>
           </div>
 
@@ -297,16 +288,13 @@
                 <span class="icon-star text-warning"></span>
                 <span class="icon-star text-warning"></span>
               </div>
-              <h3 class="h5 text-primary mb-4">Dave Smith</h3>
+              <h3 class="h5 text-primary mb-4">Emily</h3>
               <blockquote>
                 <p>
-                  &ldquo;Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind
-                  texts. Separated they live in Bookmarksgrove right at the
-                  coast of the Semantics, a large language ocean.&rdquo;
+                  &ldquo;We have been extremely pleased with the services provided by INTER-LLECT Facility Management & Homes Ltd. Their team is knowledgeable, friendly, and always ready to assist with any issues that arise. They offer a range of services that have made managing our properties much more efficient. While there have been a few minor hiccups along the way, their commitment to resolving issues quickly and effectively has been commendable. Definitely recommend!&rdquo;
                 </p>
               </blockquote>
-              <p class="text-black-50">Designer, Co-founder</p>
+              <p class="text-black-50">Chef</p>
             </div>
           </div>
         </div>
@@ -322,8 +310,9 @@
             Let's find home that's perfect for you
           </h2>
           <p class="text-black-50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            enim pariatur similique debitis vel nisi qui reprehenderit.
+            Finding the perfect home is a journey that combines your unique preferences, lifestyle, and dreams into one special place. Whether you're searching for a cozy apartment, a spacious family house, or a modern condo, the right home should meet your needs and make you feel at ease.
+
+            At INTER-LLECT Facility Management & Homes Ltd, we understand that a home is more than just a property; it's a sanctuary where memories are made. Our dedicated team is committed to helping you navigate the housing market with ease, providing personalized support and expert advice at every step.
           </p>
         </div>
       </div>
@@ -339,10 +328,9 @@
               <span class="icon-home2"></span>
             </span>
             <div class="feature-text">
-              <h3 class="heading">2M Properties</h3>
+              <h3 class="heading">Affordable Homes</h3>
               <p class="text-black-50">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum iste.
+                Affordable homes are essential for creating inclusive and thriving communities. These homes provide quality living spaces at prices accessible to individuals and families with varying income levels. 
               </p>
             </div>
           </div>
@@ -354,8 +342,7 @@
             <div class="feature-text">
               <h3 class="heading">Top Rated Agents</h3>
               <p class="text-black-50">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum iste.
+                Top-rated agents are the cornerstone of a successful real estate experience, bringing unparalleled expertise, dedication, and personalized service to every client interaction.
               </p>
             </div>
           </div>
@@ -367,8 +354,7 @@
             <div class="feature-text">
               <h3 class="heading">Legit Properties</h3>
               <p class="text-black-50">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nostrum iste.
+                Legit properties are the foundation of trust and security in the real estate market, ensuring that buyers and investors can proceed with confidence.
               </p>
             </div>
           </div>
@@ -382,9 +368,9 @@
         >
           <div class="counter-wrap mb-5 mb-lg-0">
             <span class="number"
-              ><span class="countup text-primary">3298</span></span
+              ><span class="countup text-primary">156</span></span
             >
-            <span class="caption text-black-50"># of Buy Properties</span>
+            <span class="caption text-black-50">Numbers of Bought Properties</span>
           </div>
         </div>
         <div
@@ -394,9 +380,9 @@
         >
           <div class="counter-wrap mb-5 mb-lg-0">
             <span class="number"
-              ><span class="countup text-primary">2181</span></span
+              ><span class="countup text-primary">214</span></span
             >
-            <span class="caption text-black-50"># of Sell Properties</span>
+            <span class="caption text-black-50">Numbers of Listed Properties</span>
           </div>
         </div>
         <div
@@ -406,9 +392,9 @@
         >
           <div class="counter-wrap mb-5 mb-lg-0">
             <span class="number"
-              ><span class="countup text-primary">9316</span></span
+              ><span class="countup text-primary">214</span></span
             >
-            <span class="caption text-black-50"># of All Properties</span>
+            <span class="caption text-black-50">Number of All Properties</span>
           </div>
         </div>
         <div
@@ -418,9 +404,9 @@
         >
           <div class="counter-wrap mb-5 mb-lg-0">
             <span class="number"
-              ><span class="countup text-primary">7191</span></span
+              ><span class="countup text-primary">31</span></span
             >
-            <span class="caption text-black-50"># of Agents</span>
+            <span class="caption text-black-50">Numbers of Agents</span>
           </div>
         </div>
       </div>
@@ -508,9 +494,7 @@
             Our Agents
           </h2>
           <p class="text-black-50">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
-            enim pariatur similique debitis vel nisi qui reprehenderit totam?
-            Quod maiores.
+            At INTER-LLECT Facility Management & Homes Ltd, our top-rated agents stand out for their proven track record of success, consistently exceeding expectations by securing the best deals and ensuring smooth transactions. Their professional yet approachable manner, combined with a passion for helping clients find their dream homes, makes them invaluable partners in the real estate journey. Whether buying, selling, or managing properties, our top-rated agents are dedicated to providing a seamless, satisfying experience that builds lasting relationships and trust.
           </p>
         </div>
       </div>
@@ -518,18 +502,16 @@
         <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
           <div class="h-100 person">
             <img
-              src="images/person_1-min.jpg"
+              src="images/user.jpg"
               alt="Image"
               class="img-fluid"
             />
 
             <div class="person-contents">
-              <h2 class="mb-0"><a href="#">James Doe</a></h2>
+              <h2 class="mb-0"><a href="#">Oche John</a></h2>
               <span class="meta d-block mb-3">Real Estate Agent</span>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Facere officiis inventore cumque tenetur laboriosam, minus
-                culpa doloremque odio, neque molestias?
+                With over a decade of experience in the real estate industry, Oche John is a top-rated estate agent known for his exceptional customer service and deep knowledge of the local market. His passion for helping clients find their dream homes is evident in his attentive approach and ability to understand each client's unique needs.
               </p>
 
               <ul class="social list-unstyled list-inline dark-hover">
@@ -558,12 +540,11 @@
             />
 
             <div class="person-contents">
-              <h2 class="mb-0"><a href="#">Jean Smith</a></h2>
+              <h2 class="mb-0"><a href="#">David Victor</a></h2>
               <span class="meta d-block mb-3">Real Estate Agent</span>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Facere officiis inventore cumque tenetur laboriosam, minus
-                culpa doloremque odio, neque molestias?
+                David Victor brings a wealth of experience and a strategic approach to real estate,
+                 making him a sought-after estate agent for both buyers and sellers. His background in finance and his keen analytical skills allow him to provide clients with valuable insights into the market, helping them make informed decisions. David's commitment to transparency and honesty has helped him build long-lasting relationships with his clients, who appreciate his straightforward and supportive manner. In his free time, David is an avid runner and enjoys participating in marathons.
               </p>
 
               <ul class="social list-unstyled list-inline dark-hover">
@@ -586,18 +567,17 @@
         <div class="col-sm-6 col-md-6 col-lg-4 mb-5 mb-lg-0">
           <div class="h-100 person">
             <img
-              src="images/person_3-min.jpg"
+              src="images/person_4-min.jpg"
               alt="Image"
               class="img-fluid"
             />
 
             <div class="person-contents">
-              <h2 class="mb-0"><a href="#">Alicia Huston</a></h2>
+              <h2 class="mb-0"><a href="#">Oluchi Daniel</a></h2>
               <span class="meta d-block mb-3">Real Estate Agent</span>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Facere officiis inventore cumque tenetur laboriosam, minus
-                culpa doloremque odio, neque molestias?
+                Oluchi Daniel's vibrant personality and relentless work ethic have made her a standout estate agent in the industry. With a keen eye for detail and a knack for understanding her clients' preferences, Oluchi excels at matching people with their perfect properties. Her expertise in digital marketing and innovative sales techniques sets her apart, ensuring that her clients' listings receive maximum exposure. 
+                Oluchi's dedication to continuous learning and professional development keeps her at the forefront of the market. When she's not working, she loves exploring new cuisines and traveling to new destinations.
               </p>
 
               <ul class="social list-unstyled list-inline dark-hover">
