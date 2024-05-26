@@ -24,6 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link href="{{url('images/logo.jpeg')}}" rel="icon" />
 
     <link rel="stylesheet" href="{{asset('home/fonts/icomoon/style.css')}}" />
     <link rel="stylesheet" href="{{asset('home/fonts/flaticon/font/flaticon.css')}}" />
@@ -217,7 +218,7 @@
             </p>
             <div>
               Distributed by
-              <a href="https://www.instagram.com/ark.view?igsh=Z3hkb2dnOG1neTg5/" target="_blank">Ark View</a>
+              <a href="mailto:info@arkviews.com" target="_blank">Ark View</a>
             </div>
           </div>
         </div>
