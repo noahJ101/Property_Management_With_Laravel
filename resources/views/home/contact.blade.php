@@ -59,13 +59,14 @@
               <div class="email mt-4">
                 <i class="icon-envelope"></i>
                 <h4 class="mb-2">Email:</h4>
-                <p>info@interllect.com</p>
+                <p>interllect@arkviews.com</p>
+                <p>owohemmanuel11@yahoo.com</p>
               </div>
 
               <div class="phone mt-4">
                 <i class="icon-phone"></i>
                 <h4 class="mb-2">Call:</h4>
-                <p>+(234)8118849191</p>
+                <p>+(234)8111849191</p>
               </div>
             </div>
           </div>

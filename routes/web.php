@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
@@ -17,13 +18,15 @@ use App\Http\Controllers\AdminController;
 |
 */
 
-
-
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
-})->middleware(['auth:sanctum', config('jetstream.auth_session'), 'verified'])->name('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
+require __DIR__.'/auth.php';
 
 route::get('/redirect', [HomeController::class, 'redirect']);
 

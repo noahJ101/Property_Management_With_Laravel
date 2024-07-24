@@ -22,7 +22,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $property=property::all();
+        $property=property::orderBy('created_at', 'desc')->get();
         $comment=comment::orderby('id','desc')->get();
         $reply=reply::all();
 

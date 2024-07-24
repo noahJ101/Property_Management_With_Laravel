@@ -123,10 +123,11 @@
               <address>NO. 45, LEKKI SCHEME 2 ESTATE AJAH, LAGOS, LAGOS
                 STATE, NIGERIA</address>
               <ul class="list-unstyled links">
-                <li><a href="tel://11234567890">+(234)8118849191</a></li>
+                <li><a href="tel://11234567890">+(234)8111849191</a></li>
                 
                 <li>
-                  <a href="mailto:info@mydomain.com">info@interllect.com</a>
+                  <a href="mailto:interllect@arkviews.com">interllect@arkviews.com</a>
+                  <a href="mailto:owohemmanuel11@yahoo.com">owohemmanuel11@yahoo.com</a>
                 </li>
               </ul>
             </div>
